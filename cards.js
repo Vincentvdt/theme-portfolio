@@ -1,0 +1,75 @@
+let cards = [
+    {
+        title: 'Lorem ipsum dolor sit',
+        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique eum cum.',
+        img: 'card1.jpg',
+        author: 'Марьян Блан | @marjanblan',
+        tags: ["all", "city"],
+    }, {
+        title: 'Lorem ipsum dolor sitddd',
+        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique eum cum.',
+        img: 'card3.jpg',
+        author: 'Khara Woods',
+        tags: ["all", "nature", "city"],
+    }, {
+        title: 'Lorem ipsum dolor sit',
+        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique eum cum.',
+        img: 'card5.jpg',
+        author: 'Jonathan Freeman',
+        tags: ["all", "portrait", "city"],
+    }, {
+        title: 'Lorem ipsum dolor sit',
+        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique eum cum.',
+        img: 'card4.jpg',
+        author: 'Khara Woods',
+        tags: ["all", "nature"],
+    }, {
+        title: 'Lorem ipsum dolor sit',
+        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique eum cum.',
+        img: 'card2.jpg',
+        author: 'Марьян Блан | @marjanblan',
+        tags: ["all", "city"],
+    }, {
+        title: 'Lorem ipsum dolor sit',
+        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique eum cum.',
+        img: 'card6.jpg',
+        author: 'Tanner Boriack',
+        tags: ["all", "portrait"],
+    }, {
+        title: 'Lorem ipsum dolor sit',
+        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique eum cum.',
+        img: 'card9.jpg',
+        author: 'Will Lawrence',
+        tags: ["all", "nature"],
+    }, {
+        title: 'Lorem ipsum dolor sit',
+        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique eum cum.',
+        img: 'card11.jpg',
+        author: 'Ayman Elkandoussi',
+        tags: ["all", "city"],
+    }, {
+        title: 'Lorem ipsum dolor sit',
+        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique eum cum.',
+        img: 'card7.jpg',
+        author: 'brayan garcia',
+        tags: ["all", "portrait"],
+    }, {
+        title: 'Lorem ipsum dolor sit',
+        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique eum cum.',
+        img: 'card10.jpg',
+        author: 'brayan garcia',
+        tags: ["all", "nature"],
+    }, {
+        title: 'Lorem ipsum dolor sit',
+        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique eum cum.',
+        img: 'card12.jpg',
+        author: 'Hin Bong Yeung',
+        tags: ["all", "city"],
+    }, {
+        title: 'Lorem ipsum dolor sit',
+        description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique eum cum.',
+        img: 'card8.jpg',
+        author: 'brayan garcia',
+        tags: ["all", "portrait"],
+    },
+]

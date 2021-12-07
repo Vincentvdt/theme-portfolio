@@ -1,0 +1,207 @@
+html,
+* {
+    font-size: 14px;
+    scroll-behavior: smooth;
+    font-family: Roboto, Lato, sans-serif !important;
+}
+
+.nav-custom {
+    min-height: 75px;
+}
+
+.yellow {
+    color: #e7e247 !important;
+}
+
+ion-icon {
+    font-size: 32px;
+}
+
+.menu-title {
+    letter-spacing: 0.097em;
+    font-weight: 600;
+    font-size: 1.4rem;
+    font-style: normal;
+}
+
+.navbar-custom {
+    gap: 15%;
+}
+
+.nav-item-custom a {
+    font-size: 1rem;
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+    color: white !important;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.nav-item-custom:hover {
+    color: #e7e247 !important;
+}
+
+.banner {
+    min-height: 850px;
+    background-image: url("assets/img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.banner .banner-content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+}
+
+.banner .banner-content .banner-text {
+    color: whitesmoke;
+}
+
+.banner .banner-content .btn-custom {
+    padding: 10px 40px;
+}
+
+.about-me .aboutme-img {
+
+    background-image: url("assets/img/aboutme.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(100%);
+}
+
+.about-me .aboutme-content .aboutme-txt {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.about-me .aboutme-media ion-icon {
+    color: #3d3b30;
+    font-size: 32px;
+}
+
+.about-me .aboutme-media ion-icon:hover {
+    color: #4d5061;
+}
+
+/* gallery tags button*/
+.gallery-tags {
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    color: #d0d0d2;
+}
+
+.gallery-tags li {
+    color: #d0d0d2;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.gallery-tags li:hover, .gallery-tags li.active {
+    color: #3d3b30;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.card-custom {
+    border: none;
+    text-align: center;
+}
+
+.card-custom h5 {
+    font-size: 1.5rem;
+    line-height: 0.5em;
+}
+
+.card-custom p {
+    color: #3d3b30;
+    font-size: 0.9rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-input input, .form-input textarea {
+    font-size: .9em;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    transition: 0.5s ease-in-out;
+}
+
+.form-input input::placeholder, .form-input textarea::placeholder {
+    color: #b6b2b2;
+
+    font-weight: lighter;
+}
+
+.form-input.required label span, .form-input.required label span {
+    color: #bd3c3c;
+}
+
+.contact .form-required {
+    color: #bd3c3c;
+    font-weight: 700;
+}
+
+
+.contact textarea.form-custom {
+    height: 180px;
+}
+
+.contact .submit-custom {
+    width: 175px;
+    background-color: #3d3b30;
+    border: none;
+    border-radius: 50px;
+    transition: 0.2s ease-in-out;
+}
+
+.contact .submit-custom p {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fffff4;
+    letter-spacing: 2px;
+    transition: 0.3s cubic-bezier(0.67, -1.15, 0.37, 2.02);
+    transform: translateX(10px);
+    margin: 7px 0;
+    padding: 0;
+}
+
+.contact .submit-custom ion-icon {
+    transform: translateX(30px);
+    opacity: 0;
+    transition: 0.3s cubic-bezier(0.67, -1.15, 0.37, 2.02);
+    color: #333333;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #fafafa;
+}
+
+.footer .container .footer-info .footer-custom {
+    letter-spacing: 0.079em;
+    font-size: 0.9rem;
+}
+
+.footer .container .footer-link .nav-link {
+    padding: 0 1rem !important;
+    transition: 0.2s ease-in-out;
+}
+
+.footer .container .footer-link .nav-link:hover {
+    color: inherit !important;
+}
+
+/*# sourceMappingURL=style.css.map */
