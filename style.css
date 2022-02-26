@@ -1,6 +1,6 @@
 html,
 * {
-    font-size: 14px;
+    font-size: 16px;
     scroll-behavior: smooth;
     font-family: Roboto, Lato, sans-serif !important;
 }
@@ -25,11 +25,13 @@ ion-icon {
 }
 
 .navbar-custom {
-    gap: 15%;
+    position: relative;
+    gap: 50%;
+
 }
 
 .nav-item-custom a {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 500;
     transition: 0.2s ease-in-out;
     color: white !important;
@@ -37,9 +39,11 @@ ion-icon {
     text-decoration: none;
 }
 
-.nav-item-custom:hover {
-    color: #e7e247 !important;
+
+.nav-item-custom a:hover {
+    color: #e7e247 !important
 }
+
 
 .banner {
     min-height: 850px;
@@ -59,6 +63,7 @@ ion-icon {
 
 .banner .banner-content .banner-text {
     color: whitesmoke;
+    font-size: 1.1rem;
 }
 
 .banner .banner-content .btn-custom {
@@ -153,12 +158,15 @@ ion-icon {
     font-weight: 700;
 }
 
+.form-custom {
+    padding: 20px !important;
+}
 
 .contact textarea.form-custom {
     height: 180px;
 }
 
-.contact .submit-custom {
+.submit-custom {
     width: 175px;
     background-color: #3d3b30;
     border: none;
@@ -166,7 +174,7 @@ ion-icon {
     transition: 0.2s ease-in-out;
 }
 
-.contact .submit-custom p {
+.submit-custom p {
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
@@ -178,12 +186,31 @@ ion-icon {
     padding: 0;
 }
 
-.contact .submit-custom ion-icon {
+.submit-custom ion-icon {
     transform: translateX(30px);
     opacity: 0;
     transition: 0.3s cubic-bezier(0.67, -1.15, 0.37, 2.02);
     color: #333333;
     font-size: 20px;
+}
+
+.submit-custom:hover {
+    background-color: #e7e247 !important;
+    transform: translateX(0px);
+
+}
+
+.submit-custom:hover p {
+    color: #3d3b30 !important;
+    transform: translateX(0px);
+
+
+}
+
+.submit-custom:hover ion-icon {
+    color: #3d3b30 !important;
+    transform: translateX(20px);
+    opacity: 1;
 }
 
 .footer {
