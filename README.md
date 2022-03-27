@@ -11,6 +11,8 @@ Of course the website is completely fictitious as is the character of Sylvain Du
 
 All photos are from Unsplash
 
+Demo : https://sylvainduchenes.herokuapp.com/
+
 ## Author
 
 Vincent Vidot | [@vincentvdt](https://github.com/Vincentvdt)
